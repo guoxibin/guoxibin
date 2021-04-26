@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/information_profile"
+            android:icon="@drawable/people_head"
+            android:title="Profile"/>
+        <item
+            android:id="@+id/information_peoples"
+            android:icon="@drawable/people"
+            android:title="People"/>
+        <item
+            android:id="@+id/information_location"
+            android:icon="@drawable/location"
+            android:title="Locations"/>
+        <item
+            android:id="@+id/information_event"
+            android:icon="@drawable/event"
+            android:title="Events"/>
+        <item
+            android:id="@+id/information_settings"
+            android:icon="@drawable/ic"
+            android:title="Settings"/>
+    </group>
+</menu>
